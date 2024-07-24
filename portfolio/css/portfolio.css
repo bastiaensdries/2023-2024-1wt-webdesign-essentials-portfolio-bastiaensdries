@@ -1,6 +1,11 @@
-body {
-    #E0CA41 #A7E041 #E0DD42 #E0B741 #64E041 #E0DF8C
-}
+/*
+https://fonts.google.com/specimen/Patua+One
+https://fonts.google.com/specimen/Ramabhadra
+Font awesome: https://cdnjs.com/libraries/font-awesome
+*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 * {
     padding: 0;
@@ -10,6 +15,7 @@ body {
 
 body {
     background-color: white;
+    font-family: "Patua One", sans-serif;
 }
 
 .hide_small {
@@ -26,7 +32,6 @@ header {
 
 nav {
 
-    height: 250px;
     background-image: url("/portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -39,7 +44,7 @@ nav {
     align-content: center;
 }
 
-ul {
+nav ul {
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -84,22 +89,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #E0CA41;
-    border: 1px solid #E0CA41;
     border-radius: 10px;
 }
 
 img {
     max-width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-#animatie {
-    border: 2px solid blue;
-}
-
-#main {
-    border: 2px solid red;
+    width: auto;
+    object-fit: cover;
 }
 
 figcaption {
@@ -107,29 +103,50 @@ figcaption {
     text-align: end;
 }
 
+#main {
+    justify-content: center;
+    align-items: center;
+}
 
+.boktor img {
+    width: 100%;
+    height: auto;
+}
 
+#main section {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
 
+#main img {
+    border-radius: 10px;
+}
 
+#main figure {
+    text-align: center;
+}
 
+#main dl li {
+    list-style-type: "\1F41E";
+}
 
+#main dl li li {
+    list-style-type: "\1F41D";
+}
 
-
-
+#main dl li li li {
+    list-style-type: "\1F40C";
+}
 
 .index_content img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
 }
-
-footer {
-    margin-top: 2px;
-    border-top: 2px solid #6e9ecb;
-    border-right: 2px solid #6e9ecb;
-}
-
-
 
 .wants {
     border: 2px solid #6e9ecb;
@@ -147,7 +164,8 @@ footer {
 }
 
 footer {
-
+    margin-top: 2px;
+    font-family: "Ramabhadra", sans-serif;
     margin-bottom: 5px;
 }
 
@@ -155,10 +173,38 @@ footer a {
     text-align: end;
 }
 
+#animatie {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+}
+
+#animatie div {
+    padding-top: 350px;
+    position: sticky;
+    top:0;
+    color: yellowgreen;
+
+}
+
+#animatie div a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+#animatie div a:hover {
+    transition: transform 1000ms;
+    transform: rotate(360deg)
+}
+
 @media screen and (min-width: 768px) {
 
-    img {
-        height: 550px;
+    nav {
+        height: 150px;
     }
 
     .hide_small {
@@ -169,57 +215,9 @@ footer a {
     nav li {
         flex: 1 1 auto;
     }
-
 }
-
 
 @media screen and (min-width: 992px) {
 
 
 }
-
-
-
-
-
-
-
-/*#test {*/
-/*    border: 10px solid yellow;*/
-/*    background-color: white;*/
-/*    position: sticky;*/
-/*    top: 0px;*/
-/*    padding-bottom: 5px;*/
-/*    padding-top: 5px;*/
-/*}*/
-/*main {*/
-/*    padding-bottom: 5px;*/
-/*}*/
-
-/*header {*/
-/*    height: 150px;*/
-/*    background-color: #6e9ecb;*/
-/*    background-image: url("/portfolio/assets/background/20240717_160917.jpg");*/
-/*    background-attachment: scroll;*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: left center;*/
-/*    margin-top: 10px;*/
-/*    padding-left: 3px;*/
-/*    background-size: cover;*/
-/*    margin-bottom: 1px;*/
-/*}*/
-
-/*nav {*/
-/*    background-color: black;*/
-/*    position: sticky;*/
-/*    top: 0;*/
-/*    margin-top: 0px;*/
-/*}*/
-
-/*h1 {*/
-/*    border: 2px solid red;*/
-/*    font-size: 25px;*/
-/*    text-align: center;*/
-/*    color: black;*/
-/*    margin: 0;*/
-/*}*/
