@@ -70,6 +70,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #94FA3F;
 }
 
 .current {
@@ -208,6 +209,38 @@ footer a {
 .show_big {
     display: none;
 }
+
+table {
+    background-color: white;
+    margin: 5px;
+
+}
+
+thead {
+
+    border: 2px solid white;
+    background-color: #E9FA78;
+    outline: 2px solid #94FA3F;
+    outline-offset: -4px;
+    height: 50px;
+    text-align: center;
+
+}
+
+thead th {
+    border-right: #94FA3F;
+}
+
+tbody {
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #E9FA78;
+    outline: 2px solid #94FA3F;
+    outline-offset: -4px;
+}
+
+
 
 @media screen and (min-width: 768px) {
 
