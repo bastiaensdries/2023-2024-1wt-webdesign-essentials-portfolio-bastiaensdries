@@ -18,14 +18,10 @@ body {
     font-family: "Patua One", sans-serif;
 }
 
-.hide_small {
-    display: none;
-}
-
 header {
     background-color: white;
     position: sticky;
-    top: 0px;
+    top: 0;
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -45,22 +41,22 @@ nav {
 }
 
 nav ul {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     display: flex;
 }
 
 nav li {
     display: flex;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     flex: 1 1 auto;
 }
 
 nav a {
 
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     flex: 1 1 auto;
     outline-offset: -4px;
     text-decoration: none;
@@ -79,41 +75,16 @@ nav a:hover {
     color: darkred;
 }
 
-img {
-    width: 100%;
-    padding-left: auto;
-}
-
-#main {
+.main {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #E0CA41;
     border-radius: 10px;
-}
-
-img {
-    max-width: 100%;
-    width: auto;
-    object-fit: cover;
-}
-
-figcaption {
-    text-decoration: underline;
-    text-align: end;
-}
-
-#main {
     justify-content: center;
     align-items: center;
 }
 
-.boktor img {
-    width: 100%;
-    height: auto;
-}
-
-#main section {
+.main section {
     margin: 5px;
     border-radius: 10px;
     background-color: tomato;
@@ -122,59 +93,36 @@ figcaption {
     align-items: center;
 }
 
-#main img {
-    border-radius: 10px;
-}
-
-#main figure {
-    text-align: center;
-}
-
-#main dl li {
-    list-style-type: "\1F41E";
-}
-
-#main dl li li {
-    list-style-type: "\1F41D";
-}
-
-#main dl li li li {
-    list-style-type: "\1F40C";
-}
-
-.index_content img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.wants {
-    border: 2px solid #6e9ecb;
-    margin-bottom: 0px;
-    margin-top: 2px;
-}
-
-.wants h2 {
-    height: 75px;
-    font-weight: bold;
-}
-
-.wants p {
-    font-size: 1rem;
-}
-
-footer {
-    margin-top: 2px;
-    font-family: "Ramabhadra", sans-serif;
-    margin-bottom: 5px;
-}
-
-footer a {
+figcaption {
     text-align: end;
 }
 
-#animatie {
+.main section div {
 
+    margin: 5px;
+}
+
+.insect {
+
+    margin: 0;
+    padding: 0;
+}
+
+.c {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wants {
+    border-radius: 10px;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.animatie {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -183,41 +131,109 @@ footer a {
     align-items: center;
 }
 
-#animatie div {
-    padding-top: 350px;
+.animatie div {
+
+    text-align: center;
+    padding-top: 70vh;
     position: sticky;
     top:0;
     color: yellowgreen;
 
 }
 
-#animatie div a {
+.animatie div a {
     color: yellowgreen;
     text-decoration: none;
 }
 
-#animatie div a:hover {
+.animatie div a:hover {
     transition: transform 1000ms;
     transform: rotate(360deg)
 }
 
+.main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main figure {
+    text-align: center;
+}
+
+.main dl li {
+    list-style-type: "\1F41E";
+}
+
+.main dl li li {
+    list-style-type: "\1F41D";
+}
+
+.main dl li li li {
+    list-style-type: "\1F40C";
+}
+
+footer {
+    background-image: url("/portfolio/assets/background/20240510_144552.jpg");
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    align-content: center;
+    margin-top: 2px;
+    font-family: "Ramabhadra", sans-serif;
+    margin-bottom: 5px;
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer a {
+    padding-right: 10px;
+}
+
+.wants p {
+    font-size: 1rem;
+}
+
+.show_big {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
 
+    .show_small {
+        display: none;
+    }
+
+    .show_big {
+        display: inherit;
+    }
+
     nav {
-        height: 150px;
+        height: 100px;
     }
-
-    .hide_small {
-        display: inline;
-    }
-
 
     nav li {
         flex: 1 1 auto;
+    }
+
+    .insect img {
+        width: 100%;
+        height: 275px;
+
+    }
+
+    h2 {
+        height: 5rem;
     }
 }
 
 @media screen and (min-width: 992px) {
 
-
+    .insect img {
+        width: 100%;
+        height:330px;
+    }
 }
