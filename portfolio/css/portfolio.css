@@ -27,7 +27,6 @@ header {
 }
 
 nav {
-
     background-image: url("/portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -55,13 +54,12 @@ nav li {
 }
 
 nav a {
-
     padding: 0;
     margin: 0;
     flex: 1 1 auto;
     outline-offset: -4px;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -101,12 +99,10 @@ figcaption {
 }
 
 .main section div {
-
     margin: 5px;
 }
 
 .insect {
-
     margin: 0;
     padding: 0;
 }
@@ -129,6 +125,14 @@ figcaption {
 }
 
 .animatie {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        border: 2px solid #94FA3F;
+        background-color: #E9FA78;
+}
+
+.animatie {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -139,18 +143,25 @@ figcaption {
 }
 
 .animatie div {
-
+    justify-content: center;
     text-align: center;
-    padding-top: 70vh;
+    padding-top: 50vh;
     position: sticky;
     top:0;
     color: #94FA3F;
-
 }
 
-.animatie div a {
+.animatie div figure,
+.animatie a {
     color: #94FA3F;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.animatie figcaption {
+    justify-content: center;
+    align-items: center;
 }
 
 .animatie div a:hover {
@@ -191,7 +202,6 @@ footer {
     font-family: "Ramabhadra", sans-serif;
     margin-bottom: 5px;
     border: 2px solid #94FA3F;
-
 }
 
 footer div {
@@ -227,19 +237,23 @@ th {
 }
 
 .foto {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .foto img {
     margin: 5px;
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 20px;
+    max-height: 20px;
     transition: 0.5s;
 }
 
 .foto img:hover {
     transform: scale(5);
+}
+
+footer a {
+    padding-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -269,6 +283,18 @@ th {
     h2 {
         height: 5rem;
     }
+
+    .foto {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .foto img {
+        margin: 5px;
+        max-width: 40px;
+        max-height: 40px;
+        transition: 0.5s;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -276,5 +302,17 @@ th {
     .insect img {
         width: 100%;
         height:330px;
+    }
+
+    .foto {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .foto img {
+        margin: 5px;
+        max-width: 60px;
+        max-height: 60px;
+        transition: 0.5s;
     }
 }
