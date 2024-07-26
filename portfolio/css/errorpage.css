@@ -1,0 +1,149 @@
+/*
+https://fonts.google.com/specimen/Patua+One
+https://fonts.google.com/specimen/Ramabhadra
+Font awesome: https://cdnjs.com/libraries/font-awesome
+*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Patua One", sans-serif;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav {
+    background-image: url("/portfolio/assets/background/20240717_160917.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 10px;
+    padding-left: 3px;
+    background-size: cover;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    align-content: center;
+    border: 2px solid #94FA3F;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex: 1 1 auto;
+}
+
+nav a {
+    padding: 0;
+    margin: 0;
+    flex: 1 1 auto;
+    outline-offset: -4px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D3FAD2;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #94FA3F;
+}
+
+.current {
+    color: #FAECB4;
+}
+
+.main {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+footer {
+    background-image: url("/portfolio/assets/background/20240510_144552.jpg");
+    color: black;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    align-content: center;
+    margin-top: 2px;
+    font-family: "Ramabhadra", sans-serif;
+    margin-bottom: 5px;
+    border: 2px solid #94FA3F;
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer a {
+    padding-right: 10px;
+}
+
+.main {
+    background-image: url("/portfolio/assets/background/rsz_1worm.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+    height: 50vh;
+}
+
+.main figure {
+    justify-content: end;
+}
+
+.main img {
+    margin-right: 30px;
+    width: 10%;
+    height: auto;
+    animation: moveBug 15s linear infinite;
+}
+
+.main img:hover {
+    animation-play-state: paused;
+}
+
+@keyframes moveBug {
+    to {
+        transform: translateY(-50vh);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        height: 100px;
+    }
+
+    nav li {
+        flex: 1 1 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
