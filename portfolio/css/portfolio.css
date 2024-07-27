@@ -88,8 +88,6 @@ main {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 .animatie {
@@ -97,13 +95,7 @@ main {
     padding: 50px;
     border-radius: 10px;
     border: 2px solid #94FA3F;
-    /*border: 2px solid red;*/
     background-color: #E9FA78;
-}
-
-.animatie figure {
-    /*border: 2px solid black;*/
-
 }
 
 .animatie div figure,
@@ -160,33 +152,15 @@ figcaption {
 }
 
 
-.animatie div a:hover {
+.animatie a:hover {
     transition: transform 1000ms;
     transform: rotate(360deg)
 }
-
-
-.main div section{
-}
-
-.one {
-    /*border: 2px solid red;*/
-}
-
-.two {
-    padding:0;
-    margin: 0px;
-    /*border: 2px solid red;*/
-}
-
-
 
 /*.c {*/
 /*    margin: 0;*/
 /*    padding: 0;*/
 /*}*/
-
-
 
 .main dl li {
     list-style-type: "\1F41E";
@@ -278,10 +252,6 @@ th {
 .foto img:hover {
     transform: scale(5);
 }
-
-
-
-
 
 @media screen and (min-width: 768px) {
 
