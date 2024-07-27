@@ -221,6 +221,7 @@ footer a {
 }
 
 table {
+    font-size: 75%;
     margin-top: 5px;
     background-color: #E9FA78;
     text-align: center;
