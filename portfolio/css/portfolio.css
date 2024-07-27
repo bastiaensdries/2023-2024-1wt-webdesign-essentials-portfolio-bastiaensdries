@@ -98,6 +98,12 @@ main {
     background-color: #E9FA78;
 }
 
+.two {
+    border: 2px solid red;
+    margin:0px;
+    padding: 0px;
+}
+
 .animatie div figure,
 .animatie a {
     color: #94FA3F;
