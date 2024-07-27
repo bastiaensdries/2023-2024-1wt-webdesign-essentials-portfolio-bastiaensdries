@@ -98,11 +98,7 @@ main {
     background-color: #E9FA78;
 }
 
-.two {
-    margin:0px;
-    padding: 0px;
-    padding-left: 2px;
-}
+
 
 .animatie div figure,
 .animatie a {
@@ -180,9 +176,10 @@ figcaption {
     list-style-type: "\1F40C";
 }
 
-.insect {
-    margin: 0;
-    padding: 0;
+.two {
+    margin:0px;
+    padding: 0px;
+    padding-left: 2px;
 }
 
 .wants {
@@ -190,10 +187,12 @@ figcaption {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    /*border: 2px solid white;*/
     background-color: #E9FA78;
-    outline: 2px solid #94FA3F;
-    outline-offset: -4px;
+    /*outline: 2px solid #94FA3F;*/
+    /*outline-offset: -4px;*/
+    border: 2px solid #94FA3F;
+
 }
 
 footer {
