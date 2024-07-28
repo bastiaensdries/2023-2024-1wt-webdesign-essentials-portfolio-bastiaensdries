@@ -238,10 +238,12 @@ thead th,
 .soort {
     font-weight: bold;
     border: 2px solid #94FA3F;
+    background-color: #E9FA78;
 }
 
 td {
     border: 2px solid #94FA3F;
+    background-color: #E9FA78;
 }
 
 .foto {
@@ -259,6 +261,8 @@ td {
 .foto img:hover {
     transform: scale(5);
 }
+
+
 
 @media screen and (min-width: 768px) {
 
