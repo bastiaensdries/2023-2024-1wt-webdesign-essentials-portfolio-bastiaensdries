@@ -159,11 +159,6 @@ figcaption {
     transform: rotate(360deg)
 }
 
-/*.c {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
 .main dl li {
     list-style-type: "\1F41E";
 }
@@ -180,7 +175,6 @@ figcaption {
     margin:0px;
     padding: 0px;
     padding-left: 2px;
-    margin-bottom: 2px;
 }
 
 .two div:last-child,
@@ -195,6 +189,7 @@ figcaption {
     align-items: center;
     background-color: #E9FA78;
     border: 2px solid #94FA3F;
+    margin-bottom: 2px;
 }
 
 footer {
@@ -226,21 +221,26 @@ footer a {
     display: none;
 }
 
+
+
+
+
 table {
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
     font-size: 75%;
-    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: #E9FA78;
     text-align: center;
 }
 
 thead th,
 .soort {
-    border: 5px solid #94FA3F;
+    font-weight: bold;
+    border: 2px solid #94FA3F;
 }
 
-td,
-th {
+td {
     border: 2px solid #94FA3F;
 }
 
