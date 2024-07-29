@@ -19,6 +19,7 @@ body {
 }
 
 header {
+    display: block;
     background-color: white;
     position: sticky;
     top: 0;
