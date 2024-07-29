@@ -38,6 +38,8 @@ nav {
     border-radius: 10px;
     align-content: center;
     border: 2px solid #94FA3F;
+    outline: 5px solid white;
+
 }
 
 nav ul {
@@ -107,6 +109,7 @@ main {
 }
 
 .animatie figcaption {
+
     justify-content: center;
     align-items: center;
 }
@@ -115,7 +118,8 @@ main {
 
     justify-content: center;
     text-align: center;
-    padding-top: 50vh;
+    padding-top: 30vh;
+    position: -webkit-sticky;
     position: sticky;
     top:0;
     color: #94FA3F;
@@ -168,13 +172,13 @@ figcaption {
 }
 
 .two {
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
     padding-left: 2px;
 }
 
 .two div:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .wants {
@@ -277,13 +281,12 @@ td {
     }
 
     nav {
-        height: 100px;
+        /*height: 50px;*/
     }
-
 
     .wants img {
         width: 100%;
-        height: 275px;
+        height: 300px;
     }
 
     .wants h2 {
@@ -325,7 +328,7 @@ td {
 
     .insect img {
         width: 100%;
-        height:330px;
+        height:200px;
     }
 
     .foto {
