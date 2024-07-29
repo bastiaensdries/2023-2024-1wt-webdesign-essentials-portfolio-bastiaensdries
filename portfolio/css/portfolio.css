@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-    background-color: white;
+    /*background-color: white;*/
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -178,10 +178,6 @@ figcaption {
     padding-left: 2px;
 }
 
-.two div:last-child {
-    margin-bottom: 0;
-}
-
 .wants {
     box-sizing: border-box;
     border-radius: 10px;
@@ -272,7 +268,6 @@ td {
         align-items: center;
     }
 
-
     .show_small {
         display: none;
     }
@@ -315,15 +310,7 @@ td {
         outline: 2px solid white;
         outline-offset: -1px;
     }
-
-
-
 }
-
-
-
-
-
 
 @media screen and (min-width: 992px) {
 
