@@ -71,10 +71,6 @@ nav a:hover {
     color: #94FA3F;
 }
 
-.current {
-    color: #FAECB4;
-}
-
 .main {
     max-width: 90%;
     margin-left: auto;
@@ -113,6 +109,12 @@ footer a {
     height: 50vh;
 }
 
+h1,
+h2 {
+    color: #FAECB4;
+
+}
+
 
 .main div {
     text-align: end;
@@ -136,7 +138,7 @@ footer a {
 .main img {
 
     height: 20px;
-    width: auto%;
+    width: auto;
 }
 
 .main div:hover {
