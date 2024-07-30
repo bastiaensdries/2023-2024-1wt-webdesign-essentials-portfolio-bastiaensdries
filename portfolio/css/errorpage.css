@@ -113,20 +113,29 @@ footer a {
     height: 50vh;
 }
 
-.main figure {
-    -webkit-justify-content: flex-end;
-    justify-content: end;
-}
-
-.main img {
+.main div {
+    flex-direction: row-reverse;
+    border: 2px solid red;
     margin-right: 30px;
-    width: 10%;
-    height: auto;
+    width: 20px;
+    height: 20px;
     -webkit-animation: moveBug 15s linear infinite;
     animation: moveBug 15s linear infinite;
 }
 
-.main img:hover {
+.main figure {
+    height: 100%;
+    border: 2px solid black;
+}
+
+.main img {
+    border: red;
+    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.main div:hover {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
@@ -151,12 +160,6 @@ footer a {
 
     nav {
         height: 100px;
-    }
-
-    .main img {
-        margin-right: 30px;
-        width: 5%;
-        height: auto;
     }
 
     footer {
