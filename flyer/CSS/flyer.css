@@ -14,11 +14,71 @@ Font awesome: https://cdnjs.com/libraries/font-awesome
 }
 
 body {
+    width: 98%;
     background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Patua One", sans-serif;
 }
+
+h1,
+h2 {
+    color: #FAECB4;
+}
+
+section {
+    padding-top: 10px;
+}
+
+figure {
+    text-align: center;
+    font-family: "Ramabhadra", sans-serif;
+    padding-top: 10px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+section ul {
+    color: #FAECB4;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+#test {
+    margin-top: 100px;
+}
+
+@media print {
+
+    body {
+        width: 98% !important;
+        background-image: url("/flyer/assetsFlyer/flyer_background.JPG") !important;
+        background-attachment: fixed !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size: cover !important;
+        align-content: center !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        font-family: "Patua One", sans-serif !important;
+    }
+
+}
+
+
+
+
+
+
+
 
