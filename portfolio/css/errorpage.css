@@ -116,7 +116,7 @@ h2 {
 
 .main div {
     text-align: end;
-    margin-right: 0px;
+    margin-right: 0;
     width: auto;
     height: 20px;
     -webkit-animation: moveBug 15s linear infinite;

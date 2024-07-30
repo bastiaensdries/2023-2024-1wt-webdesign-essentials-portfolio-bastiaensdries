@@ -1,0 +1,24 @@
+/*
+https://fonts.google.com/specimen/Patua+One
+https://fonts.google.com/specimen/Ramabhadra
+Font awesome: https://cdnjs.com/libraries/font-awesome
+*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-content: center;
+}
+
