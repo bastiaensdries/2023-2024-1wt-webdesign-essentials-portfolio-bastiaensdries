@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-    background-image: url("portfolio/assets/background/20240717_160917.jpg");
+    background-image: url("/portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: left center;
@@ -118,6 +118,7 @@ footer a {
 }
 
 .main img {
+    border: 2px solid red;
     margin-right: 30px;
     width: 10%;
     height: auto;
