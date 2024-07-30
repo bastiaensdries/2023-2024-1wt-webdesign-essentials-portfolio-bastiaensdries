@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-    background-image: url("/portfolio/assets/background/20240717_160917.jpg");
+    background-image: url("portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: left center;
@@ -121,15 +121,18 @@ footer a {
     margin-right: 30px;
     width: 10%;
     height: auto;
+    -webkit-animation: moveBug 15s linear infinite;
     animation: moveBug 15s linear infinite;
 }
 
 .main img:hover {
+    -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
 
 @keyframes moveBug {
     to {
+        -webkit-transform: translateY(-50vh);
         transform: translateY(-50vh);
     }
 }
