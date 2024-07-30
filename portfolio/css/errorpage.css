@@ -113,26 +113,30 @@ footer a {
     height: 50vh;
 }
 
+
 .main div {
-    flex-direction: row-reverse;
-    border: 2px solid red;
-    margin-right: 30px;
-    width: 20px;
+    text-align: end;
+
+    margin-right: 0px;
+    width: auto;
     height: 20px;
     -webkit-animation: moveBug 15s linear infinite;
     animation: moveBug 15s linear infinite;
+    padding-right: 5%;
+
 }
 
 .main figure {
+
     height: 100%;
-    border: 2px solid black;
+    width: 100%;
+
 }
 
 .main img {
-    border: red;
-    height: 100%;
-    width: 100%;
-    height: auto;
+
+    height: 20px;
+    width: auto%;
 }
 
 .main div:hover {
