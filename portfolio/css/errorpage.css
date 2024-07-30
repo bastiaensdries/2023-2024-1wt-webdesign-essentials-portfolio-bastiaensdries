@@ -102,7 +102,7 @@ footer a {
 }
 
 .main {
-    background-image: url("/portfolio/assets/background/rsz_1worm.jpg");
+    background-image: url("/portfolio/assets/background/rsz_1worm.jpg") !important;
     background-size: cover;
     background-attachment: scroll;
     background-position: center top;
@@ -112,31 +112,24 @@ footer a {
 h1,
 h2 {
     color: #FAECB4;
-
 }
-
 
 .main div {
     text-align: end;
-
     margin-right: 0px;
     width: auto;
     height: 20px;
     -webkit-animation: moveBug 15s linear infinite;
     animation: moveBug 15s linear infinite;
     padding-right: 5%;
-
 }
 
 .main figure {
-
     height: 100%;
     width: 100%;
-
 }
 
 .main img {
-
     height: 20px;
     width: auto;
 }
@@ -174,6 +167,42 @@ h2 {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media print {
 
+    nav,
+    footer{
+        border: 2px solid black;
+    }
+
+    nav li a,
+    footer,
+    footer a {
+        color: black;
+    }
+
+    .current {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .animatie {
+        display: none;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .wants {
+        border: 4px solid black;
+        outline: 2px solid white;
+        outline-offset: -1px;
+        text-align: center;
+
+    }
+
+    .wants div img {
+        height: 250px;
+        width: auto;
+    }
 }
