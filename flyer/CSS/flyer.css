@@ -11,62 +11,70 @@ Font awesome: https://cdnjs.com/libraries/font-awesome
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-.test {
-    height: 100vh;
-    background-image: url("/flyer/assetsFlyer/flyer_background.JPG") !important;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    align-content: center;
-    margin-right: auto;
-    margin-left: auto;
     font-family: "Patua One", sans-serif;
-}
-
-h1,
-h2 {
     color: #FAECB4;
 }
 
-section {
+.content {
+    height: 100vh;
+    width: auto;
     padding-top: 10px;
+    background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.content section {
+    /*border: 2px solid greenyellow;*/
 }
 
 figure {
+
+    margin-right: 10px;
+    border: 1px solid #FAECB4;
+    border-radius: 50%;
     text-align: center;
     font-family: "Ramabhadra", sans-serif;
-    padding-top: 10px;
 }
 
 img {
-    width: 40px;
-    height: 40px;
+
+    width: 30px;
+    height: 30px;
 }
 
-section ul {
-    color: #FAECB4;
+.footer div p {
+    /*border: 2px solid red;*/
+
 }
 
-.section {
-    margin-top: 100px;
+.vu {
+    font-size: 8px;
+    text-decoration: none;
+    margin-top: 0;
 }
 
 @media print {
 
-    test {
-
-        font-family: "Comic Sans MS";
-        background-image: url("/flyer/assetsFlyer/flyer_background.JPG") !important;
-        background-attachment: fixed;
-        -webkit-print-color-adjust: exact;
+    @page  {
+        size: landscape;
     }
 
-
+    .content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
 }
+
+
+
+
 
 
 
