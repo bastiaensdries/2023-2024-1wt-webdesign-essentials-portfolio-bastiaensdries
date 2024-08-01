@@ -13,9 +13,9 @@ Font awesome: https://cdnjs.com/libraries/font-awesome
     box-sizing: border-box;
 }
 
-body {
-    width: 98%;
-    background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
+.test {
+    height: 100vh;
+    background-image: url("/flyer/assetsFlyer/flyer_background.JPG") !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -54,24 +54,17 @@ section ul {
     margin-top: 100px;
 }
 
-#test {
-    margin-top: 100px;
-}
-
 @media print {
 
-    body {
-        width: 98% !important;
+    test {
+
+        font-family: "Comic Sans MS";
         background-image: url("/flyer/assetsFlyer/flyer_background.JPG") !important;
-        background-attachment: fixed !important;
-        background-repeat: no-repeat !important;
-        background-position: center center !important;
-        background-size: cover !important;
-        align-content: center !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        font-family: "Patua One", sans-serif !important;
+        background-attachment: fixed;
+        -webkit-print-color-adjust: exact;
     }
+
+
 
 }
 
