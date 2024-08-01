@@ -15,6 +15,10 @@ Font awesome: https://cdnjs.com/libraries/font-awesome
     color: #FAECB4;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .content {
     height: 100vh;
     width: auto;
@@ -28,29 +32,18 @@ Font awesome: https://cdnjs.com/libraries/font-awesome
     margin-left: auto;
 }
 
-
-.content section {
-    /*border: 2px solid greenyellow;*/
-}
-
 figure {
-
     margin-right: 10px;
     border: 1px solid #FAECB4;
     border-radius: 50%;
     text-align: center;
     font-family: "Ramabhadra", sans-serif;
+    opacity: 45%;
 }
 
 img {
-
     width: 30px;
     height: 30px;
-}
-
-.footer div p {
-    /*border: 2px solid red;*/
-
 }
 
 .vu {
@@ -69,7 +62,6 @@ img {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
 }
 
 
