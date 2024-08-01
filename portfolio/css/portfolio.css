@@ -256,6 +256,10 @@ td {
 
 @media screen and (min-width: 768px) {
 
+    nav {
+        height: 150px;
+    }
+
     .main {
         padding:0;
         max-width: 90%;
