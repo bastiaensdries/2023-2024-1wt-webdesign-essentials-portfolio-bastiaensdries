@@ -20,7 +20,7 @@ h1 {
 }
 
 .content {
-    height: 100vh;
+    height: 80vh;
     width: auto;
     padding-top: 10px;
     background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
