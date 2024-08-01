@@ -20,9 +20,10 @@ h1 {
 }
 
 .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: 100vh;
     width: 100%;
-    padding-top: 10px;
     background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,11 +57,6 @@ img {
 
     @page  {
         size: landscape;
-    }
-
-    .content {
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
 }
 
