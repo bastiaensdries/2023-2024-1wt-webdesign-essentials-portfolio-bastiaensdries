@@ -21,7 +21,7 @@ h1 {
 
 .content {
     height: 100vh;
-    width: auto;
+    /*width: auto;*/
     padding-top: 10px;
     background-image: url("/flyer/assetsFlyer/flyer_background.JPG");
     background-repeat: no-repeat;
