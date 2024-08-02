@@ -19,14 +19,6 @@ body {
 }
 
 nav {
-    /*position: -webkit-sticky;*/
-    /*position: sticky;*/
-    /*top: 0;*/
-    /*padding-bottom: 5px;*/
-    /*padding-top: 5px;*/
-}
-
-nav {
     background-image: url("/portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -34,35 +26,37 @@ nav {
     background-size: cover;
     margin-top: 10px;
     margin-bottom: 1px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 3px;
+
+    /*padding-left: 3px;*/
     border: 2px solid #94FA3F;
     border-radius: 10px;
     align-content: center;
-    outline: 5px solid white;
+    /*outline: 5px solid white;*/
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
+nav div {
+    border: 2px solid black;
+}
+
 nav ul {
+    list-style-type: none;
+    border: 2px solid red;
     padding: 0;
     margin: 0;
-    /*display: flex;*/
 }
 
 nav li {
-    /*display: flex;*/
-    padding: 0;
-    margin: 0;
-    /*flex: 1 1 auto;*/
+    flex: 1 1 auto;
+    width: inherit;
+    border: 2px solid yellow;
 }
 
 nav a {
-    padding: 0;
-    margin: 0;
     flex: 1 1 auto;
+    border: 2px solid blue;
     outline-offset: -4px;
     text-decoration: none;
     font-size: 2rem;
