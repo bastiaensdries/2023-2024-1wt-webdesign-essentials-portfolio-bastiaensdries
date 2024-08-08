@@ -58,32 +58,43 @@ nav a:hover {
     color: #FAECB4;
 }
 
-
-main {
-    border: 2px solid blue;
-}
-
-.two {
-    border: 2px solid greenyellow;
-}
-
 main {
     width: 90%;
-    justify-content: center;
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    border: 2px solid red;
 }
 
 .main {
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*padding: 0;*/
-    /*max-width: 100%;*/
-    /*margin: 0;*/
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
+.main figure {
+    text-align: end;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main section {
+    margin: 0;
+    border-radius: 10px;
+    border: 2px solid #94FA3F;
+    background-color: #E9FA78;
+    color: black;
+
+
+}
+
 .animatie {
+    margin-right: 3px;
     border-radius: 10px;
     border: 2px solid #94FA3F;
     background-color: #E9FA78;
@@ -101,50 +112,16 @@ main {
     top: 45vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.main figure {
-    text-align: center;
-}
-
-.animatie {
-    padding: 0;
-}
-
-.main section {
-    margin: 1px;
-    border-radius: 10px;
-    border: 2px solid #94FA3F;
-    background-color: #E9FA78;
-    color: black;
-    justify-content: center;
-    align-items: center;
-}
-
-figcaption {
-    text-align: end;
-}
-
 .animatie a:hover {
     transition: transform 1000ms;
     transform: rotate(360deg)
+}
+
+
+
+
+.two {
+    border: 2px solid blue;
 }
 
 .main dl li {
@@ -159,21 +136,22 @@ figcaption {
     list-style-type: "\1F40C";
 }
 
-.two {
-    margin:0;
-    padding: 0;
-    padding-left: 2px;
+.wants p {
+    font-size: 1rem;
 }
 
-.wants {
-    box-sizing: border-box;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: #E9FA78;
-    border: 2px solid #94FA3F;
-    margin-bottom: 2px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     font-size: 80%;
@@ -196,9 +174,7 @@ footer a {
     padding-right: 10px;
 }
 
-.wants p {
-    font-size: 1rem;
-}
+
 
 .show_big {
     display: none;
@@ -241,6 +217,10 @@ td {
 
 .foto img:hover {
     transform: scale(8);
+}
+
+.wants div {
+    border: 2px solid red;
 }
 
 @media screen and (min-width: 768px) {
@@ -291,11 +271,7 @@ td {
         transition: 0.5s;
     }
 
-    .wants {
-        border: 4px solid #94FA3F;
-        outline: 2px solid white;
-        outline-offset: -1px;
-    }
+
 
     footer {
         padding-top: 5px;
