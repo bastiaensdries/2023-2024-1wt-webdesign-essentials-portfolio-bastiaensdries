@@ -19,11 +19,6 @@ body {
 }
 
 nav {
-    border: 2px solid red;
-}
-
-
-nav {
     background-image: url("/portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -174,7 +169,7 @@ figcaption {
 
 footer {
     font-size: 80%;
-    background-image: url("2023-2024-1wt-webdesign-essentials-portfolio-bastiaensdries/portfolio/assets/background/20240717_160917.jpg");
+    background-image: url("/portfolio/assets/background/20240510_144552.jpg");
     color: black;
     background-position: center center;
     background-size: cover;
