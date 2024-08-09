@@ -129,9 +129,104 @@ main {
     border: 2px solid #94FA3F;
     background-color: #E9FA78;
     padding: 5px;
-
 }
 
+
+
+
+
+table {
+    height: 100%;
+    width: 100%;
+    /*font-size: 75%;*/
+    /*margin-bottom: 5px;*/
+    /*background-color: #E9FA78;*/
+    /*text-align: center;*/
+    /*border-radius: 10px;*/
+}
+
+thead th,
+.soort {
+    /*font-weight: bold;*/
+    /*border: 2px solid #94FA3F;*/
+    /*background-color: #E9FA78;*/
+}
+
+td {
+    /*border: 2px solid #94FA3F;*/
+    /*background-color: #E9FA78;*/
+}
+
+.foto {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+.foto img {
+    margin: 5px;
+    max-width: 20px;
+    max-height: 20px;
+    transition: 0.5s;
+}
+
+.foto img:hover {
+    transform: scale(8);
+}
+
+main {
+    /*border: 2px solid black;*/
+}
+
+.animatie,
+.two {
+    /*border: 2px solid red;*/
+}
+
+.two {
+
+    display: inline-block;
+    /*border: 2px solid blue;*/
+}
+
+table {
+    background-color: #E9FA78;
+    display: block;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+
+td {
+    border: 2px solid greenyellow;
+}
+
+th {
+    text-align: center;
+}
+
+.topleft {
+    border-top: none;
+    border-left: none;
+}
+
+.topright {
+    border-top: none;
+    border-right: none;
+}
+
+.bottomleft {
+    border-bottom: none;
+    border-left: none;
+}
+
+.bottomright {
+    border-bottom: none;
+    border-right: none;
+}
+
+.text-rotate {
+    transform: rotate(-90deg);
+}
 
 
 
@@ -166,44 +261,6 @@ footer a {
     display: none;
 }
 
-table {
-    height: 100%;
-    width: 100%;
-    font-size: 75%;
-    margin-bottom: 5px;
-    background-color: #E9FA78;
-    text-align: center;
-    border-radius: 10px;
-}
-
-thead th,
-.soort {
-    font-weight: bold;
-    border: 2px solid #94FA3F;
-    background-color: #E9FA78;
-}
-
-td {
-    border: 2px solid #94FA3F;
-    background-color: #E9FA78;
-}
-
-.foto {
-    max-width: 30px;
-    max-height: 30px;
-    border-radius: 50%;
-}
-
-.foto img {
-    margin: 5px;
-    max-width: 20px;
-    max-height: 20px;
-    transition: 0.5s;
-}
-
-.foto img:hover {
-    transform: scale(8);
-}
 
 
 
