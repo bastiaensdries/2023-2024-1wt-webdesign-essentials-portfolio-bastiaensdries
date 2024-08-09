@@ -197,6 +197,7 @@ table {
 }
 
 td {
+
     border: 2px solid greenyellow;
 }
 
@@ -224,6 +225,23 @@ th {
     border-bottom: none;
     border-right: none;
 }
+
+.top {
+    border-top: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.left {
+    border-left: none;
+}
+
 
 .text-rotate {
     transform: rotate(-90deg);
