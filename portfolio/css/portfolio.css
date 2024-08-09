@@ -13,6 +13,10 @@ Font awesome: https://cdnjs.com/libraries/font-awesome
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     font-family: "Patua One", sans-serif;
@@ -94,11 +98,16 @@ main {
     background-color: #E9FA78;
 }
 
+.animatie figure {
+    text-align: center;
+    color: #94FA3F;
+    text-decoration: none;
+}
+
 .animatie a,
 .animatie figcaption {
     color: #94FA3F;
     text-decoration: none;
-    text-align: center;
 }
 
 .animatie figure {
@@ -130,10 +139,6 @@ main {
     background-color: #E9FA78;
     padding: 5px;
 }
-
-
-
-
 
 table {
     height: 100%;
@@ -174,19 +179,8 @@ td {
     transform: scale(8);
 }
 
-main {
-    /*border: 2px solid black;*/
-}
-
-.animatie,
 .two {
-    /*border: 2px solid red;*/
-}
-
-.two {
-
     display: inline-block;
-    /*border: 2px solid blue;*/
 }
 
 table {
@@ -247,12 +241,6 @@ th {
     transform: rotate(-90deg);
 }
 
-
-
-
-
-
-
 footer {
     font-size: 80%;
     background-image: url("/portfolio/assets/background/20240510_144552.jpg");
@@ -267,23 +255,16 @@ footer {
 }
 
 footer div {
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 footer a {
     padding-right: 10px;
 }
 
-
-
 .show_big {
     display: none;
 }
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
 
