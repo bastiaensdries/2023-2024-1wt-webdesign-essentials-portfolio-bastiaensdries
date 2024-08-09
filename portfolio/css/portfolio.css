@@ -64,10 +64,6 @@ main {
     margin-left: auto;
 }
 
-main {
-    border: 2px solid red;
-}
-
 .main {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -89,8 +85,6 @@ main {
     border: 2px solid #94FA3F;
     background-color: #E9FA78;
     color: black;
-
-
 }
 
 .animatie {
@@ -117,34 +111,26 @@ main {
     transform: rotate(360deg)
 }
 
-
-
-
-.two {
-    border: 2px solid blue;
-}
-
-.main dl li {
+.list dl li {
     list-style-type: "\1F41E";
 }
 
-.main dl li li {
+.list dl li li {
     list-style-type: "\1F41D";
 }
 
-.main dl li li li {
+.list dl li li li {
     list-style-type: "\1F40C";
 }
 
-.wants p {
-    font-size: 1rem;
+.wants {
+
+    border-radius: 10px;
+    border: 2px solid #94FA3F;
+    background-color: #E9FA78;
+    padding: 5px;
+
 }
-
-
-
-
-
-
 
 
 
@@ -219,9 +205,9 @@ td {
     transform: scale(8);
 }
 
-.wants div {
-    border: 2px solid red;
-}
+
+
+
 
 @media screen and (min-width: 768px) {
 
