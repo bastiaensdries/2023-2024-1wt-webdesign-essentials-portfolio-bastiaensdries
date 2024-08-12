@@ -24,6 +24,7 @@ body {
 }
 
 nav {
+    z-index: 999;
     background-image: url("/portfolio/assets/background/20240717_160917.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -32,7 +33,7 @@ nav {
     border: 2px solid #94FA3F;
     border-radius: 10px;
     outline: 4px solid white;
-    /*position: -webkit-sticky;*/
+
     position: sticky;
     top: 0;
 }
@@ -166,16 +167,17 @@ main {
 
 table {
     background-color: #E9FA78;
-    display: block;
     border: 2px solid greenyellow;
     border-radius: 10px;
+    text-align: center;
+    /*display: block;*/
 }
 
 table {
     height: 100%;
     width: 100%;
     font-size: 75%;
-    text-align: center;
+
 }
 
 td {
@@ -187,43 +189,6 @@ th {
     border: 2px solid greenyellow;
     text-align: center;
 }
-
-.topleft {
-    border-top: none;
-    border-left: none;
-}
-
-.topright {
-    border-top: none;
-    border-right: none;
-}
-
-.bottomleft {
-    border-bottom: none;
-    border-left: none;
-}
-
-.bottomright {
-    border-bottom: none;
-    border-right: none;
-}
-
-.top {
-    border-top: none;
-}
-
-.bottom {
-    border-bottom: none;
-}
-
-.right {
-    border-right: none;
-}
-
-.left {
-    border-left: none;
-}
-
 
 .text-rotate {
     transform: rotate(-90deg);
@@ -282,9 +247,9 @@ footer a {
         height: 5rem;
     }
 
-    table {
-        font-size: 100%;
-    }
+    /*table {*/
+    /*    font-size: 100%;*/
+    /*}*/
 
     .foto {
         max-width: 50px;
