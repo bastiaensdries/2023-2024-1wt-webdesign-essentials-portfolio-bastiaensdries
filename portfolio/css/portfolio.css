@@ -285,8 +285,12 @@ footer a {
         transition: 0.5s;
     }
 
+    nav {
+        height: 175px;
+    }
+
     footer {
-        font-size: 80%;
+        font-size: 100%;
         height: 175px;
     }
 }
