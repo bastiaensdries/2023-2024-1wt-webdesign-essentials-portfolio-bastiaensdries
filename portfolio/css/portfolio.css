@@ -203,21 +203,16 @@ footer a {
 @media screen and (min-width: 768px) {
 
     .wants {
-
+        box-sizing: border-box;
         border-radius: 10px;
         border: 4px solid #94FA3F;
         background-color: #E9FA78;
-        outline: 2px solid white;
+        outline: 3px solid white;
         outline-offset: -2px;
         padding: 5px;
         margin-bottom: 0;
         margin-top: 0;
     }
-
-    /*nav {*/
-    /*    height: 150px;*/
-    /*}*/
-
     main {
         padding:0;
         max-width: 90%;
@@ -288,8 +283,6 @@ footer a {
         transition: 0.5s;
     }
 
-
-
     footer {
         height: 150px;
     }
@@ -321,10 +314,6 @@ footer a {
     .animatie {
         display: none;
     }
-
-    /*.two {*/
-    /*    width: 100%;*/
-    /*}*/
 
     .wants {
         border: 4px solid black;
