@@ -284,6 +284,10 @@ footer a {
         max-height: 50px;
         transition: 0.5s;
     }
+
+    footer {
+        height: 150px;
+    }
 }
 
 
