@@ -33,7 +33,6 @@ nav {
     border: 2px solid #94FA3F;
     border-radius: 10px;
     outline: 4px solid white;
-
     position: sticky;
     top: 0;
 }
@@ -67,24 +66,21 @@ main {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-}
-
-.main {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.main figure {
+main figure {
     text-align: end;
 }
 
-.main img {
+main img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.main section {
+main section {
     margin: 0;
     border-radius: 10px;
     border: 2px solid #94FA3F;
@@ -141,9 +137,6 @@ main {
     padding: 5px;
 }
 
-
-
-
 .foto {
     max-width: 30px;
     max-height: 30px;
@@ -158,11 +151,8 @@ main {
 }
 
 .foto img:hover {
-    transform: scale(8);
-}
 
-.two {
-    display: inline-block;
+    transform: scale(4);
 }
 
 table {
@@ -170,14 +160,9 @@ table {
     border: 2px solid greenyellow;
     border-radius: 10px;
     text-align: center;
-    /*display: block;*/
-}
-
-table {
     height: 100%;
     width: 100%;
     font-size: 75%;
-
 }
 
 td {
@@ -217,17 +202,29 @@ footer a {
 
 @media screen and (min-width: 768px) {
 
-    nav {
-        height: 150px;
+    .wants {
+
+        border-radius: 10px;
+        border: 4px solid #94FA3F;
+        background-color: #E9FA78;
+        outline: 2px solid white;
+        outline-offset: -2px;
+        padding: 5px;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
-    .main {
+    /*nav {*/
+    /*    height: 150px;*/
+    /*}*/
+
+    main {
         padding:0;
         max-width: 90%;
         margin-left: auto;
         margin-right: auto;
-        justify-content: center;
-        align-items: center;
+        /*justify-content: center;*/
+        /*align-items: center;*/
     }
 
     .show_small {
@@ -238,18 +235,21 @@ footer a {
         display: inherit;
     }
 
+
     .wants img {
+        margin-right: 1px;
         width: 100%;
         height: 300px;
     }
 
     .wants h2 {
+
         height: 5rem;
     }
 
-    /*table {*/
-    /*    font-size: 100%;*/
-    /*}*/
+    table {
+        font-size: 100%;
+    }
 
     .foto {
         max-width: 50px;
@@ -260,10 +260,8 @@ footer a {
         margin: 5px;
         max-width: 40px;
         max-height: 40px;
-        transition: 0.5s;
+
     }
-
-
 
     footer {
         padding-top: 5px;
@@ -272,10 +270,6 @@ footer a {
 }
 
 @media screen and (min-width: 992px) {
-
-    .wants h2 {
-        height: 7rem;
-    }
 
     .insect img {
         width: 100%;
@@ -294,10 +288,13 @@ footer a {
         transition: 0.5s;
     }
 
+
+
     footer {
         height: 150px;
     }
 }
+
 
 @media print {
 
@@ -325,9 +322,9 @@ footer a {
         display: none;
     }
 
-    .two {
-        width: 100%;
-    }
+    /*.two {*/
+    /*    width: 100%;*/
+    /*}*/
 
     .wants {
         border: 4px solid black;
