@@ -137,20 +137,20 @@ main section {
     padding: 5px;
 }
 
-.foto {
+.foto-table {
     max-width: 30px;
     max-height: 30px;
     border-radius: 50%;
 }
 
-.foto img {
+.foto-table-table img {
     margin: 5px;
     max-width: 20px;
     max-height: 20px;
     transition: 0.5s;
 }
 
-.foto img:hover {
+.foto-table img:hover {
 
     transform: scale(4);
 }
@@ -166,7 +166,6 @@ table {
 }
 
 td {
-
     border: 2px solid greenyellow;
 }
 
@@ -246,12 +245,12 @@ footer a {
         font-size: 100%;
     }
 
-    .foto {
+    .foto-table {
         max-width: 50px;
         max-height: 50px;
     }
 
-    .foto img {
+    .foto-table img {
         margin: 5px;
         max-width: 40px;
         max-height: 40px;
@@ -259,6 +258,7 @@ footer a {
     }
 
     footer {
+        height: 100px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -271,17 +271,18 @@ footer a {
         height:200px;
     }
 
-    .foto {
+    .foto-table {
         max-width: 60px;
         max-height: 60px;
     }
 
-    .foto img {
+    .foto-table img {
         margin: 5px;
         max-width: 50px;
         max-height: 50px;
         transition: 0.5s;
     }
+
 }
 
 
@@ -291,7 +292,7 @@ footer a {
     thead th,
     .soort,
     td,
-    .two section,
+    section,
     footer{
         border: 2px solid black;
     }
