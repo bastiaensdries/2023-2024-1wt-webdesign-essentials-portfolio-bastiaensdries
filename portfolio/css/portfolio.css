@@ -296,21 +296,6 @@ footer a {
 
 @media print {
 
-    /*nav,*/
-    /*thead th,*/
-    /*.soort,*/
-    /*td,*/
-    /*section,*/
-    /*footer{*/
-    /*    border: 2px solid black;*/
-    /*}*/
-
-    /*nav li a,*/
-    /*footer,*/
-    /*footer a {*/
-    /*    color: black;*/
-    /*}*/
-
     .current {
         text-decoration: underline;
         color: black;
@@ -320,15 +305,4 @@ footer a {
         display: none;
     }
 
-    /*.wants {*/
-    /*    border: 4px solid black;*/
-    /*    outline: 2px solid white;*/
-    /*    outline-offset: -1px;*/
-    /*    text-align: center;*/
-    /*}*/
-
-    /*.wants div img {*/
-    /*    height: 250px;*/
-    /*    width: auto;*/
-    /*}*/
 }
