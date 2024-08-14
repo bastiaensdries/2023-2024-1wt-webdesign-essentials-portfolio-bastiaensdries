@@ -6,8 +6,8 @@
 |:----------------|:------------------------------------------------------------------------|
 | Name            | Dries Bastiaens                                                         |
 | email           | [r1008683@student.thomasmore.be](mailto:r1008683@student.thomasmore.be) |
-| Github Username | ...                                                                     |
-| Hosting         | [https://insectenjacht.netlify.app](https://insectenjacht.netlify.app)        |
+| Github Username | bastiaensdries                                                          |
+| Hosting         | [https://insectenjacht.netlify.app](https://insectenjacht.netlify.app)  |
 
 ## Gebruik
 1. Start de lokale webserver vanuit de terminal van PhpStorm via het commando `npm run watch`
