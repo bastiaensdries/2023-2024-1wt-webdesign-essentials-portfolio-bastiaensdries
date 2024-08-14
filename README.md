@@ -6,7 +6,7 @@
 |:----------------|:------------------------------------------------------------------------|
 | Name            | Dries Bastiaens                                                         |
 | email           | [r1008683@student.thomasmore.be](mailto:r1008683@student.thomasmore.be) |
-| Github Username | ...                                                                     |
+| Github Username | bastiaensdries                                                            |
 | Hosting         | [https://insectenjacht.netlify.app](https://insectenjacht.netlify.app)        |
 
 ## Gebruik
