@@ -135,13 +135,11 @@ h2 {
 }
 
 .main div:hover {
-    -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
 
 @keyframes moveBug {
     to {
-        -webkit-transform: translateY(-50vh);
         transform: translateY(-50vh);
     }
 }
@@ -169,40 +167,11 @@ h2 {
 
 @media print {
 
-    nav,
-    footer{
-        border: 2px solid black;
-    }
-
-    nav li a,
-    footer,
-    footer a {
-        color: black;
-    }
-
     .current {
         text-decoration: underline;
-        color: black;
     }
 
     .animatie {
         display: none;
-    }
-
-    .two {
-        width: 100%;
-    }
-
-    .wants {
-        border: 4px solid black;
-        outline: 2px solid white;
-        outline-offset: -1px;
-        text-align: center;
-
-    }
-
-    .wants div img {
-        height: 250px;
-        width: auto;
     }
 }
